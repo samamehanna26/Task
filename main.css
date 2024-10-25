@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(179, 234, 237);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 15px;
+}
+.item{
+    background-color: white;
+    width: 270px;
+}
+img{
+    width: 100%;
+}
+.icons{
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(179, 234, 237);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+} 
+.buton{
+    border: solid black;
+    background-color: black;
+    color: white;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
